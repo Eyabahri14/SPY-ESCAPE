@@ -1,0 +1,58 @@
+\hypertarget{main_8c}{}\section{main.\+c File Reference}
+\label{main_8c}\index{main.\+c@{main.\+c}}
+
+
+main file.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}S\+D\+L/\+S\+D\+L\+\_\+image.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+ttf.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+getenv.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}S\+D\+L/\+S\+D\+L\+\_\+mixer.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}jeu.\+h\char`\"{}}\newline
+Include dependency graph for main.\+c\+:
+% FIG 0
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{main_8c_a6068a247ff9ece1b0a9773c58144906c}\label{main_8c_a6068a247ff9ece1b0a9773c58144906c}} 
+\#define {\bfseries L\+A\+R\+G\+E\+U\+R\+\_\+\+F\+E\+N\+E\+T\+RE}~800
+\item 
+\mbox{\Hypertarget{main_8c_afd1a1e285af564b849b17498e82e1a41}\label{main_8c_afd1a1e285af564b849b17498e82e1a41}} 
+\#define {\bfseries H\+A\+U\+T\+E\+U\+R\+\_\+\+F\+E\+N\+E\+T\+RE}~600
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{main_8c_adfffb3be7aa80aea898ada67e93d2388}\label{main_8c_adfffb3be7aa80aea898ada67e93d2388}} 
+void {\bfseries initialisation} ()
+\item 
+\mbox{\Hypertarget{main_8c_a1c4a2859129bc1cc3ea3b7dceee43bec}\label{main_8c_a1c4a2859129bc1cc3ea3b7dceee43bec}} 
+void {\bfseries upload\+\_\+anim} (S\+D\+L\+\_\+\+Surface $\ast$load\mbox{[}122\mbox{]})
+\item 
+\mbox{\Hypertarget{main_8c_a42544889db24f46eb5afe39fa4f2f97a}\label{main_8c_a42544889db24f46eb5afe39fa4f2f97a}} 
+void {\bfseries upload\+\_\+effect} (S\+D\+L\+\_\+\+Surface $\ast$anim\mbox{[}10\mbox{]})
+\item 
+\mbox{\Hypertarget{main_8c_ac69498065ce28b5cfefa45be9375d8c2}\label{main_8c_ac69498065ce28b5cfefa45be9375d8c2}} 
+void {\bfseries upload\+\_\+\+Effet\+Button} (S\+D\+L\+\_\+\+Surface $\ast$Effect\+Button\mbox{[}4\mbox{]})
+\item 
+\mbox{\Hypertarget{main_8c_a3dab39f103347ee2dc495e73b6c67376}\label{main_8c_a3dab39f103347ee2dc495e73b6c67376}} 
+void {\bfseries upload\+\_\+\+After\+Play\+Effect} (S\+D\+L\+\_\+\+Surface $\ast$Effect\+After\+Play\mbox{[}3\mbox{]})
+\item 
+\mbox{\Hypertarget{main_8c_a3c04138a5bfe5d72780bb7e82a18e627}\label{main_8c_a3c04138a5bfe5d72780bb7e82a18e627}} 
+int {\bfseries main} (int argc, char $\ast$$\ast$argv)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+main file. 
+
+\begin{DoxyAuthor}{Author}
+Anarchy team 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+june 12, 2019 
+\end{DoxyDate}
